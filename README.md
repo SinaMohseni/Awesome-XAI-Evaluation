@@ -32,6 +32,21 @@ We reviewed XAI-related research to organize different XAI design goals and eval
 
 ## Human-machine Task Performance
 
+Paper   Evaluation Measure
+[Explanatory debugging: Supporting end-user debugging of machine-learned programs][15]  Task Performance, Task Throughput
+[Why and why not explanations improve the intelligibility of context-aware intelligent systems][4]  Task Performance, Task Throughput
+[ActiVis: Visual Exploration of Industry-Scale Deep Neural Network Models][14]  Task Performance 
+[You are the only possible oracle: Effective test selection for end users of interactive machine learning systems][13]  Task Performance, Model Failure Prediction
+[Interpretable decision sets: A joint framework for description and prediction][12] Task Throughput
+[A Workflow for Visual Diagnostics of Binary Classifiers using Instance-Level Explanations][11] Model Failure Prediction
+[Interacting meaningfully with machine learning systems: Three experiments][10] Model Failure Prediction, Model Accuracy 
+[Why should I you?: Explaining the predictions of any classifier][1]    Model Accuracy 
+[Principles of explanatory debugging to personalize interactive machine learning][9]    Model Accuracy 
+[Towards better analysis of deep convolutional neural networks][6]  Model Accuracy 
+[Deepeyes: Progressive visual analytics for designing deep neural networks][8]  Model Accuracy 
+[Topicpanorama: A full picture of relevant topics][7]   Model Tuning and Selection
+
+
 
 ## User Mental Model
 
@@ -71,7 +86,16 @@ The structure and function of explanations|Trends in cognitive science 2006|Soci
 [3]: https://aaai.org/ojs/index.php/HCOMP/article/view/5280
 [4]: https://dl.acm.org/citation.cfm?id=1519023
 [5]: https://www.ijcai.org/proceedings/2017/371
-
+[6]: https://ieeexplore.ieee.org/document/7536654
+[7]: https://ieeexplore.ieee.org/document/7042494
+[8]: https://ieeexplore.ieee.org/document/8019872
+[9]: https://dl.acm.org/citation.cfm?id=2701399
+[10]: https://dl.acm.org/citation.cfm?id=1555106
+[11]: https://arxiv.org/abs/1705.01968
+[12]: https://dl.acm.org/citation.cfm?id=2939672.2939874
+[13]: https://ieeexplore.ieee.org/document/6682887
+[14]: https://ieeexplore.ieee.org/abstract/document/8022871
+[15]: https://ieeexplore.ieee.org/document/5635185
 
 <!-- Topics / Domains: 
 - interpretable machine learning
