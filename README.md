@@ -32,21 +32,20 @@ We reviewed XAI-related research to organize different XAI design goals and eval
 
 ## Human-machine Task Performance
 
-Paper   Evaluation Measure
-[Explanatory debugging: Supporting end-user debugging of machine-learned programs][15]  Task Performance, Task Throughput
-[Why and why not explanations improve the intelligibility of context-aware intelligent systems][4]  Task Performance, Task Throughput
-[ActiVis: Visual Exploration of Industry-Scale Deep Neural Network Models][14]  Task Performance 
-[You are the only possible oracle: Effective test selection for end users of interactive machine learning systems][13]  Task Performance, Model Failure Prediction
-[Interpretable decision sets: A joint framework for description and prediction][12] Task Throughput
-[A Workflow for Visual Diagnostics of Binary Classifiers using Instance-Level Explanations][11] Model Failure Prediction
-[Interacting meaningfully with machine learning systems: Three experiments][10] Model Failure Prediction, Model Accuracy 
-[Why should I you?: Explaining the predictions of any classifier][1]    Model Accuracy 
-[Principles of explanatory debugging to personalize interactive machine learning][9]    Model Accuracy 
-[Towards better analysis of deep convolutional neural networks][6]  Model Accuracy 
-[Deepeyes: Progressive visual analytics for designing deep neural networks][8]  Model Accuracy 
-[Topicpanorama: A full picture of relevant topics][7]   Model Tuning and Selection
-
-
+**Paper**|**Evaluation Measure**
+:-----:|:-----:
+[Explanatory debugging: Supporting end-user debugging of machine-learned programs][15]|Task Performance, Task Throughput
+[Why and why not explanations improve the intelligibility of context-aware intelligent systems][4]|Task Performance, Task Throughput
+[ActiVis: Visual Exploration of Industry-Scale Deep Neural Network Models][14]|Task Performance 
+[You are the only possible oracle: Effective test selection for end users of interactive machine learning systems][13]|Task Performance, Model Failure Prediction
+[Interpretable decision sets: A joint framework for description and prediction][12]|Task Throughput
+[A Workflow for Visual Diagnostics of Binary Classifiers using Instance-Level Explanations][11]|Model Failure Prediction
+[Interacting meaningfully with machine learning systems: Three experiments][10]|Model Failure Prediction, Model Accuracy 
+[Why should I you?: Explaining the predictions of any classifier][1]|Model Accuracy 
+[Principles of explanatory debugging to personalize interactive machine learning][9]|Model Accuracy 
+[Towards better analysis of deep convolutional neural networks][6]|Model Accuracy 
+[Deepeyes: Progressive visual analytics for designing deep neural networks][8]|Model Accuracy 
+[Topicpanorama: A full picture of relevant topics][7]|Model Tuning and Selection
 
 ## User Mental Model
 
