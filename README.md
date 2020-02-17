@@ -11,6 +11,19 @@ We reviewed XAI-related research to organize different XAI design goals and eval
 ![users 1](figures/target-users.png)
 
 
+  
+### Citation
+
+Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
+
+```
+@article{mohseni2018multidisciplinary,
+  title={A Multidisciplinary Survey and Framework for Design and Evaluation of Explainable AI Systems},
+  author={Mohseni, Sina and Zarei, Niloofar and Ragan, Eric D},
+  journal={arXiv preprint arXiv:1811.11839},
+  year={2018}
+}
+```
 
 ## Evaluation Measures
 
@@ -59,14 +72,54 @@ We reviewed XAI-related research to organize different XAI design goals and eval
 [Towards better analysis of deep convolutional neural networks][6]|Model Accuracy 
 [Deepeyes: Progressive visual analytics for designing deep neural networks][8]|Model Accuracy 
 [Topicpanorama: A full picture of relevant topics][7]|Model Tuning and Selection
+[Updates in human-ai teams: Understanding and addressing the performance/compatibility tradeoff][Bansal2019updates] | Success Rate
+[Human Evaluation of Models Built for Interpretability][Lage2019human]|User Prediction Accuracy
+[Evaluating Visual Explanations for Similarity-Based Recommendations: User Perception and Performance][tsai2019evaluating]|--
+[Can You Explain That? Lucid Explanations Help Human-AI Collaborative Image Retrieval][Ray2019can]|--
+[Leveraging Rationales to Improve Human Task Performance][Das2020leveraging]|--
+
 
 ## M4: User Mental Model
 
+**Paper**|**Evaluation Method**
+:-----:|:-----:
+[Updates in human-ai teams: Understanding and addressing the performance/compatibility tradeoff][Bansal2019updates] | Success Rate
+[Intellingo: An Intelligible Translation Environment][coppers2018intellingo]|--
+[Human Evaluation of Models Built for Interpretability][Lage2019human]|User Prediction Accuracy
+[Evaluating Visual Explanations for Similarity-Based Recommendations: User Perception and Performance][tsai2019evaluating]|--
+[When People and Algorithms Meet: User-reported Problems in Intelligent Everyday Applications][eiband2019people]|--
+[Towards Accountable AI: Hybrid Human-Machine Analyses for Characterizing System Failure][Nushi2018towards]|--
+[Beyond Accuracy: The Role of Mental Models in Human-AI Team Performance][bansal2019beyond]|User Success Rate
+[Can You Explain That? Lucid Explanations Help Human-AI Collaborative Image Retrieval][Ray2019can]|--
+[A Case for Backward Compatibility for Human-AI Teams][bansal2019case]|--
+[Leveraging Rationales to Improve Human Task Performance][Das2020leveraging]|--
+
+
+
 ## M5: User Trust and Reliance
+
+**Paper**|**Evaluation Method**
+:-----:|:-----:
+[The Impact of Placebic Explanations on Trust in Intelligent Systems][eiband2019impact]|Agreement Rate
+[The Effects of Meaningful and Meaningless Explanations on Trust and Perceived System Accuracy in Intelligent Systems][Nourani2019effects]|User Perceived Accuracy
+[I Drive — You Trust: Explaining Driving Behavior Of Autonomous Cars][wiegand2019drive]|Subjective Rating 
+[The role of explanations on trust and reliance in clinical decision support systems][bussone2015role]|Agreement Rate
+[Understanding the Effect of Accuracy on Trust in Machine Learning Models][yin2019understanding]|Agreement and Switch Rate
+[How much information?: Effects of transparency on trust in an algorithmic interface][kizilcec2016much]|Subjective Rating
+[“How do I fool you?”: Manipulating User Trust via Misleading Black Box Explanations][Lakkaraju2019fool]|--
+[Do I Trust My Machine Teammate? An Investigation from Perception to Decision][Yu2019trust]| --
+[Evaluating Effects of User Experience and System Transparency on Trust in Automation][Yang2017evaluating]|--
+[Trust Calibration within a Human-Robot Team: Comparing Automatically Generated Explanations][Wang2016trust]|--
+[User trust in intelligent systems: A journey over time][holliday2016user]|Subjective Rating
+[What Does Explainable AI Really Mean? A New Conceptualization of Perspectives][doran2018does]|--
+[The effects of example-based explanations in a machine learning interface][Cai2019effects]|--
+[Let Me Explain: Impact of Personal and Impersonal Explanations on Trust in Recommender Systems][Kunkel2019let]|--
+[Trust Dynamics in Human Autonomous Vehicle Interaction: A Review of Trust Models][basu2016trust]|--
+[Effects of Model Confidence and Explanation on Accuracy and Trust Calibration][zhang2020effect]|Agreement and Switch Rate
 
 ## M6: Explanation Usefulness and Satisfaction
   
-## M7: Full Reference Table 
+## Full Reference Table 
 
 
 | Title                                                                                                                                  | Conference/Journal                                                                                                | Discipline     | Paper Type          | Research Sub-Domain                          | Design Goal                                                                               | Targeted User                                         | Evaluation Measure                                                                                                                                                                                                                            | Evaluation Method                                                                                         | Evaluation Type                    | Study Metrics                                                                                                                                                                                  | Study Variables                                                                                                                                                                                                                                                                         | Simulation Metrics                                                |   |
@@ -153,6 +206,32 @@ We reviewed XAI-related research to organize different XAI design goals and eval
 [21]: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/17337/15866
 [22]: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16982
 [23]: https://ieeexplore.ieee.org/document/7552539
+[Bansal2019updates]: https://www.microsoft.com/en-us/research/publication/updates-in-human-ai-teams-understanding-and-addressing-the-performance-compatibility-tradeoff/
+[coppers2018intellingo]:https://dl.acm.org/doi/abs/10.1145/3173574.3174098
+[Lage2019human]:https://www.aaai.org/ojs/index.php/HCOMP/article/view/5280
+[tsai2019evaluating]: https://dl.acm.org/doi/10.1145/3320435.3320465
+[eiband2019people]: https://dl.acm.org/doi/10.1145/3301275.3302262
+[Nushi2018towards]: https://www.microsoft.com/en-us/research/uploads/prod/2018/07/accountable_AI_hcomp_2018.pdf
+[bansal2019beyond]: https://www.microsoft.com/en-us/research/publication/beyond-accuracy-the-role-of-mental-models-in-human-ai-team-performance/
+[Ray2019can]: https://www.aaai.org/ojs/index.php/HCOMP/article/download/5275/5127/
+[bansal2019case]: https://arxiv.org/abs/1906.01148
+[Das2020leveraging]: https://arxiv.org/pdf/2002.04202.pdf
+[eiband2019impact]: https://dl.acm.org/doi/10.1145/3290607.3312787
+[Nourani2019effects]: https://www.aaai.org/ojs/index.php/HCOMP/article/view/5284
+[wiegand2019drive]: https://dl.acm.org/doi/10.1145/3290607.3312817
+[bussone2015role]: https://ieeexplore.ieee.org/document/7349687
+[yin2019understanding]: https://www.microsoft.com/en-us/research/publication/understanding-the-effect-of-accuracy-on-trust-in-machine-learning-models/
+[kizilcec2016much]: https://dl.acm.org/doi/10.1145/2858036.2858402
+[Lakkaraju2019fool]: https://www.aies-conference.com/2020/wp-content/papers/182.pdf
+[Yu2019trust]: https://dl.acm.org/doi/10.1145/3301275.3302277
+[Yang2017evaluating]: https://dl.acm.org/doi/10.1145/2909824.3020230
+[Wang2016trust]: https://ieeexplore.ieee.org/document/7451741
+[holliday2016user]: https://openaccess.city.ac.uk/id/eprint/14845/
+[doran2018does]: https://arxiv.org/abs/1710.00794
+[Cai2019effects]: https://dl.acm.org/doi/10.1145/3301275.3302289
+[Kunkel2019let]: https://dl.acm.org/doi/10.1145/3290605.3300717
+[basu2016trust]: https://www.aaai.org/ocs/index.php/SSS/SSS16/paper/download/12746/11926
+[zhang2020effect]: https://dl.acm.org/doi/abs/10.1145/3351095.3372852
 
 
 <!-- Topics / Domains: 
