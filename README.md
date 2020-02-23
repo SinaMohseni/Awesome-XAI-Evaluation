@@ -25,16 +25,17 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 }
 ```
 
+
 ## Evaluation Measures
 
-* **Computational Measures**
-   * [M1: Fidelity of Interpretability Method](#m1:-fidelity-of-interpretability-method)
-   * [M2: Model Trustworthiness](#m2:-model-trustworthiness)
-* **Human-grounded Measures**
-   * [M3: Human-machine Task Performance](#m3:-human-machine-task-performance)
-   * [M4: User Mental Model](#m4:-user-mental-model)
-   * [M5: User Trust and Reliance](#m5:-user-trust-and-reliance)
-   * [M6: Explanation Usefulness and Satisfaction](#m6:-explanation-usefulness-and-satisfaction)
+* Computational Measures**
+  * [M1: Fidelity of Interpretability Method](#m1:-fidelity-of-interpretability-technique)
+  * [M2: Model Trustworthiness](#m2:-model-trustworthiness)
+* Human-grounded Measures**
+  * [M3: Human-machine Task Performance](#m3:-human-machine-task-performance)
+  * [M4: User Mental Model](#m4:-user-mental-model)
+  * [M5: User Trust and Reliance](#m5:-user-trust-and-reliance)
+  * [M6: Explanation Usefulness and Satisfaction](#m6:-explanation-usefulness-and-satisfaction)
   
 
 ## M1: Fidelity of Interpretability Technique
@@ -54,6 +55,12 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 
 
 ## M2: Model Trustworthiness
+[A Human-Grounded Evaluation Benchmark for Local Explanations of Machine Learning][mohseni2018human]|Human-grounded evaluation
+[A unified approach to interpreting model predictions][lundberg2017unified]|Human-grounded evaluation
+[Quantifying Interpretability and Trust in Machine Learning Systems][schmidt2019quantifying]|Human-grounded evaluation
+[Human attention in visual question answering: Do humans and deep networks look at the same regions?][das2017human]|Human-grounded evaluation
+[Visualizing and understanding convolutional networks][zeiler2014visualizing]|Debugging model and training
+
 
 
 ## M3: Human-machine Task Performance
@@ -118,7 +125,15 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 [Effects of Model Confidence and Explanation on Accuracy and Trust Calibration][zhang2020effect]|Agreement and Switch Rate
 
 ## M6: Explanation Usefulness and Satisfaction
-  
+[Are explanations always important?: a study of deployed, low-cost intelligent interactive systems][bunt2012explanations]| Interview and Self-report
+[Assessing demand for intelligibility in context-aware applications][lim2009assessing]| Interview and Self-report
+[How should I explain? A comparison of different explanation types for recommender systems][gedikli2014should]| Interview and Self-report
+[Why and why not explanations improve the intelligibility of context-aware intelligent systems][lim2009and]| Interview and Self-report
+[Intellingo: An Intelligible Translation Environment][coppers2018intellingo]| Likert-scale Questionnaire
+[Human Evaluation of Models Built for Interpretability][lage2019human]| Likert-scale Questionnaire
+[Intellingo: An Intelligible Translation Environment][coppers2018intellingo]| Engagement with Explanations
+[How should I explain? A comparison of different explanation types for recommender systems][gedikli2014should]| User Learning duration
+
 ## Full Reference Table 
 
 
@@ -232,6 +247,11 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 [Kunkel2019let]: https://dl.acm.org/doi/10.1145/3290605.3300717
 [basu2016trust]: https://www.aaai.org/ocs/index.php/SSS/SSS16/paper/download/12746/11926
 [zhang2020effect]: https://dl.acm.org/doi/abs/10.1145/3351095.3372852
+[mohseni2018human]: https://arxiv.org/abs/1801.05075
+[lundberg2017unified]: https://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions
+[schmidt2019quantifying]: https://arxiv.org/abs/1901.08558
+[das2017human]: https://arxiv.org/abs/1606.03556
+[zeiler2014visualizing]: https://arxiv.org/abs/1311.2901
 
 
 <!-- Topics / Domains: 
