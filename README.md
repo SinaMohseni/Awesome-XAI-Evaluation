@@ -28,10 +28,10 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 
 ## Evaluation Measures
 
-* Computational Measures**
+* Computational Measures
   * [M1: Fidelity of Interpretability Method](#m1:-fidelity-of-interpretability-technique)
   * [M2: Model Trustworthiness](#m2:-model-trustworthiness)
-* Human-grounded Measures**
+* Human-grounded Measures
   * [M3: Human-machine Task Performance](#m3:-human-machine-task-performance)
   * [M4: User Mental Model](#m4:-user-mental-model)
   * [M5: User Trust and Reliance](#m5:-user-trust-and-reliance)
@@ -55,6 +55,9 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 
 
 ## M2: Model Trustworthiness
+
+**Paper**|**Evaluation Method**
+:-----:|:-----:
 [A Human-Grounded Evaluation Benchmark for Local Explanations of Machine Learning][mohseni2018human]|Human-grounded evaluation
 [A unified approach to interpreting model predictions][lundberg2017unified]|Human-grounded evaluation
 [Quantifying Interpretability and Trust in Machine Learning Systems][schmidt2019quantifying]|Human-grounded evaluation
@@ -125,6 +128,9 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 [Effects of Model Confidence and Explanation on Accuracy and Trust Calibration][zhang2020effect]|Agreement and Switch Rate
 
 ## M6: Explanation Usefulness and Satisfaction
+
+**Paper**|**Evaluation Method**
+:-----:|:-----:
 [Are explanations always important?: a study of deployed, low-cost intelligent interactive systems][bunt2012explanations]| Interview and Self-report
 [Assessing demand for intelligibility in context-aware applications][lim2009assessing]| Interview and Self-report
 [How should I explain? A comparison of different explanation types for recommender systems][gedikli2014should]| Interview and Self-report
