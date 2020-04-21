@@ -42,28 +42,38 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 
 **Paper**|**Evaluation Method**
 :-----:|:-----:
-[The Building Blocks of Interpretability][16]|Sanity Check
-[Graying the black box: Understanding DQNs][17]|Sanity Check
-[Visualizing deep neural network decisions: Prediction difference analysis][18]|Sanity Check
-[Understanding neural networks through deep visualization][19]|Sanity Check
-[The (Un)reliability of saliency methods][20]|Sanity Check
-[Improving the adversarial robustness and interpretability of deep neural networks by regularizing their input gradients][21]|Sanity Check
-[Why Should I Trust You? Explaining the Predictions of Any Classifier][1]|Simulated Experiments
-[Anchors: High-precision model-agnostic explanations][22]|Simulated Experiments
+[The Building Blocks of Interpretability][16]|Sanity Check Experiment
+[Graying the black box: Understanding DQNs][17]|Sanity Check Experiment
+[Visualizing deep neural network decisions: Prediction difference analysis][18]|Sanity Check Experiment[Understanding neural networks through deep visualization][19]|Sanity Check Experiment
+[The (Un)reliability of saliency methods][20]|Sanity Check Experiment
+[Improving the adversarial robustness and interpretability of deep neural networks by regularizing their input gradients][21]|Sanity Check Experiment
+[Why Should I Trust You? Explaining the Predictions of Any Classifier][1]|Simulated Experiment
+[Anchors: High-precision model-agnostic explanations][22]|Simulated Experiment
 [Evaluating the visualization of what a deep neural network has learned][23]|Comparative Evaluation
 [Right for the Right Reasons: Training Differentiable Models by Constraining their Explanations][5]|Comparative Evaluation
+[On the Robustness of Interpretability Methods][alvarez2018robustness]|Sanity Check Experiment
+[Human-grounded Evaluations of Explanation Methods for Text Classification][Lertvittayakumjorn2019human]|Human-grounded Evaluation
+[Sanity Checks for Saliency Metrics][tomsett2019sanity]|Sanity Check Experiment
+[Benchmarking Attribution Methods with Relative Feature Importance][yang2019benchmarking]|Comparative Evaluation
+[Many Faces of Feature Importance: Comparing Built-in and Post-hoc Feature Importance in Text Classification][lai2019many]|Comparative Evaluation
+
 
 
 ## M2: Model Trustworthiness
 
 **Paper**|**Evaluation Method**
 :-----:|:-----:
-[A Human-Grounded Evaluation Benchmark for Local Explanations of Machine Learning][mohseni2018human]|Human-grounded evaluation
-[A unified approach to interpreting model predictions][lundberg2017unified]|Human-grounded evaluation
-[Quantifying Interpretability and Trust in Machine Learning Systems][schmidt2019quantifying]|Human-grounded evaluation
-[Human attention in visual question answering: Do humans and deep networks look at the same regions?][das2017human]|Human-grounded evaluation
+[A Human-Grounded Evaluation Benchmark for Local Explanations of Machine Learning][mohseni2018human]|Human-grounded Baseline
+[A unified approach to interpreting model predictions][lundberg2017unified]|Human Judgment 
+[Quantifying Interpretability and Trust in Machine Learning Systems][schmidt2019quantifying]|Human Judgment
+[Human attention in visual question answering: Do humans and deep networks look at the same regions?][das2017human]|Human-grounded Baseline
 [Visualizing and understanding convolutional networks][zeiler2014visualizing]|Debugging model and training
-
+[Towards Explanation of DNN-based Prediction with Guided Feature Inversion][Du2018towards]|Human-grounded Baseline
+[Towards Ground Truth Evaluation of Visual Explanations][Osman2020towards]|Human-grounded Baseline
+[Explainable Deep Classification Models for Domain Generalization][Zunino2020explainable ]| Human Judgment
+[Score-CAM: Improved Visual Explanations Via Score-Weighted Class Activation Mapping][Wang2019score]|Human-grounded Baseline
+[Human-in-the-Loop Interpretability Prior][Lage2018human]|Human Judgment
+[Evaluating Recurrent Neural Network Explanations][arras2019evaluating]|--
 
 
 ## M3: Human-machine Task Performance
@@ -126,19 +136,23 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 [Let Me Explain: Impact of Personal and Impersonal Explanations on Trust in Recommender Systems][Kunkel2019let]|--
 [Trust Dynamics in Human Autonomous Vehicle Interaction: A Review of Trust Models][basu2016trust]|--
 [Effects of Model Confidence and Explanation on Accuracy and Trust Calibration][zhang2020effect]|Agreement and Switch Rate
+[“How do I fool you?”: Manipulating User Trust via Misleading Black Box Explanations][Lakkaraju2019fool]| Subjective Rating
+
+
 
 ## M6: Explanation Usefulness and Satisfaction
 
 **Paper**|**Evaluation Method**
 :-----:|:-----:
-[Are explanations always important?: a study of deployed, low-cost intelligent interactive systems][bunt2012explanations]| Interview and Self-report
+[Are explanations always important? a study of deployed, low-cost intelligent interactive systems][bunt2012explanations]| Interview and Self-report
 [Assessing demand for intelligibility in context-aware applications][lim2009assessing]| Interview and Self-report
-[How should I explain? A comparison of different explanation types for recommender systems][gedikli2014should]| Interview and Self-report
+[How should I explain? A comparison of different explanation types for recommender systems][gedikli2014should]| Interview, Self-report, User Learning duration
 [Why and why not explanations improve the intelligibility of context-aware intelligent systems][lim2009and]| Interview and Self-report
 [Intellingo: An Intelligible Translation Environment][coppers2018intellingo]| Likert-scale Questionnaire
 [Human Evaluation of Models Built for Interpretability][lage2019human]| Likert-scale Questionnaire
 [Intellingo: An Intelligible Translation Environment][coppers2018intellingo]| Engagement with Explanations
-[How should I explain? A comparison of different explanation types for recommender systems][gedikli2014should]| User Learning duration
+
+
 
 ## Full Reference Table 
 
@@ -258,6 +272,21 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 [schmidt2019quantifying]: https://arxiv.org/abs/1901.08558
 [das2017human]: https://arxiv.org/abs/1606.03556
 [zeiler2014visualizing]: https://arxiv.org/abs/1311.2901
+[bunt2012explanations]: https://dl.acm.org/doi/10.1145/2166966.2166996
+[lim2009assessing]: https://dl.acm.org/doi/10.1145/1620545.1620576
+[gedikli2014should]: https://dl.acm.org/doi/10.1016/j.ijhcs.2013.12.007
+[lim2009and]: https://dl.acm.org/doi/10.1145/1518701.1519023
+[alvarez2018robustness]: https://papers.nips.cc/paper/8003-towards-robust-interpretability-with-self-explaining-neural-networks
+[Lertvittayakumjorn2019human]:https://www.aclweb.org/anthology/D19-1523/
+[Du2018towards]:https://www.kdd.org/kdd2018/accepted-papers/view/towards-explanation-of-dnn-based-prediction-with-guided-feature-inversion
+[Osman2020towards]: https://arxiv.org/abs/2003.07258
+[Zunino2020explainable]:https://arxiv.org/abs/2003.06498
+[Wang2019score]:https://arxiv.org/abs/1910.01279
+[tomsett2019sanity]: https://papers.nips.cc/paper/8160-sanity-checks-for-saliency-maps
+[lai2019many]:https://arxiv.org/abs/1910.08534
+[Lage2018human]:https://papers.nips.cc/paper/8219-human-in-the-loop-interpretability-prior
+[arras2019evaluating]:https://www.aclweb.org/anthology/W19-4813/
+[Lakkaraju2019fool]: https://www.aies-conference.com/2020/wp-content/papers/182.pdf
 
 
 <!-- Topics / Domains: 
