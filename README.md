@@ -1,12 +1,11 @@
 # Awesome-XAI-Evaluation [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-An awesome and organized reference list of evaluation measures and methods for explainable machine learning (XAI) algorithms and systems. If you need more details and descriptions, you can read the [*full paper*](https://arxiv.org/pdf/1811.11839.pdf) or visit [my page](http://people.tamu.edu/~sina.mohseni/webpage/research.html) for more resources!
+An awesome and organized multidisciplinary reference list of evaluation measures and methods for explainable machine learning (XAI) algorithms and systems. If you need more details and descriptions, you can read the [*full paper*](https://arxiv.org/pdf/1811.11839.pdf) or visit [my page](http://people.tamu.edu/~sina.mohseni/webpage/research.html) for more resources!
 
 
 ## How to Evaluate XAI?
 
-We reviewed XAI-related research to organize different XAI design goals and evaluation measures. This awesome-list presents our categorization of selected existing design and evaluation methods that organizes literature along three perspectives: **design goals**, **evaluation methods**, and **targeted users** of the XAI system. We provide summarized ready-to-use tables of evaluation methods and recommendations for different goals in XAI research. 
-<!-- ## What is this awesome list about? -->
+We reviewed XAI-related research to organize different XAI design goals and evaluation measures. This awesome-list presents our categorization of selected existing design and evaluation methods that organizes literature along with three perspectives: **design goals**, **evaluation methods**, and **targeted users** of the XAI system. We provide summarized, ready-to-use tables of evaluation methods and recommendations for different goals in XAI research. <!-- ## What is this awesome list about? -->
 
 ![users 1](figures/target-users.png)
 
@@ -56,7 +55,6 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 [Sanity Checks for Saliency Metrics][tomsett2019sanity]|Sanity Check Experiment
 [Benchmarking Attribution Methods with Relative Feature Importance][yang2019benchmarking]|Comparative Evaluation
 [Many Faces of Feature Importance: Comparing Built-in and Post-hoc Feature Importance in Text Classification][lai2019many]|Comparative Evaluation
-
 
 
 ## M2: Model Trustworthiness
@@ -287,30 +285,4 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 [Lage2018human]:https://papers.nips.cc/paper/8219-human-in-the-loop-interpretability-prior
 [arras2019evaluating]:https://www.aclweb.org/anthology/W19-4813/
 [Lakkaraju2019fool]: https://www.aies-conference.com/2020/wp-content/papers/182.pdf
-
-
-<!-- Topics / Domains: 
-- interpretable machine learning
-- Algorithmic fairness
-- Recommendation systems
-- Transparency AI
-- Intelligent interactive systems and agents,
-- Explainable intelligent systems and agents
-- Human explanations 
-- Human trust -->
-
-<!--  main attributes: 
-- research discipline (social science, HCI, visualization, or machine learning), 
-- paper type (interface design, algorithm design, or evaluation paper), 
-- application domain (machine learning
-interpretability, algorithmic fairness, recommendation systems, transparency of intelligent systems,
-intelligent interactive systems and agents, explainable intelligent systems and agents, human
-explanations, or human trust), 
-- machine learning model (e.g., deep learning, decision trees, SVM),
-- data modality (image, text, tabular data), 
-- explanation type (e.g., graphical, textual, data visualization),
-- design goal (e.g., model debugging, user reliance, bias mitigation), 
-- evaluation type (e.g., qualitative, computational, quantitative with human-subjects), 
-- targeted user (AI novices, data experts, AI
-experts), 
-- evaluation measure (e.g., user trust, task performance, user mental model ). -->
+[yang2019benchmarking]: https://arxiv.org/abs/1907.09701
