@@ -55,6 +55,10 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 [Sanity Checks for Saliency Metrics][tomsett2019sanity]|Sanity Check Experiment
 [Benchmarking Attribution Methods with Relative Feature Importance][yang2019benchmarking]|Comparative Evaluation
 [Many Faces of Feature Importance: Comparing Built-in and Post-hoc Feature Importance in Text Classification][lai2019many]|Comparative Evaluation
+[Towards Ground Truth Evaluation of Visual Explanations][Osman2020towards]|Feature-based Baseline
+[Evaluating Recurrent Neural Network Explanations][arras2019evaluating]|Sanity Check
+[Evaluating neural network explanation methods using hybrid documents and morphosyntactic agreement][poerner2018evaluating]|Comparative Evaluation
+
 
 
 ## M2: Model Trustworthiness
@@ -67,11 +71,9 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 [Human attention in visual question answering: Do humans and deep networks look at the same regions?][das2017human]|Human-grounded Baseline
 [Visualizing and understanding convolutional networks][zeiler2014visualizing]|Debugging model and training
 [Towards Explanation of DNN-based Prediction with Guided Feature Inversion][Du2018towards]|Human-grounded Baseline
-[Towards Ground Truth Evaluation of Visual Explanations][Osman2020towards]|Human-grounded Baseline
 [Explainable Deep Classification Models for Domain Generalization][Zunino2020explainable ]| Human Judgment
 [Score-CAM: Improved Visual Explanations Via Score-Weighted Class Activation Mapping][Wang2019score]|Human-grounded Baseline
 [Human-in-the-Loop Interpretability Prior][Lage2018human]|Human Judgment
-[Evaluating Recurrent Neural Network Explanations][arras2019evaluating]|--
 
 
 ## M3: Human-machine Task Performance
@@ -286,3 +288,4 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 [arras2019evaluating]:https://www.aclweb.org/anthology/W19-4813/
 [Lakkaraju2019fool]: https://www.aies-conference.com/2020/wp-content/papers/182.pdf
 [yang2019benchmarking]: https://arxiv.org/abs/1907.09701
+[poerner2018evaluating]: https://www.aclweb.org/anthology/P18-1032/
