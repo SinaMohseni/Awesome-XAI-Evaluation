@@ -127,7 +127,6 @@ Description and details in this paper: https://arxiv.org/pdf/1811.11839.pdf
 [The role of explanations on trust and reliance in clinical decision support systems][bussone2015role]|Agreement Rate
 [Understanding the Effect of Accuracy on Trust in Machine Learning Models][yin2019understanding]|Agreement and Switch Rate
 [How much information?: Effects of transparency on trust in an algorithmic interface][kizilcec2016much]|Subjective Rating
-[“How do I fool you?”: Manipulating User Trust via Misleading Black Box Explanations][Lakkaraju2019fool]|--
 [Do I Trust My Machine Teammate? An Investigation from Perception to Decision][Yu2019trust]| --
 [Evaluating Effects of User Experience and System Transparency on Trust in Automation][Yang2017evaluating]|--
 [Trust Calibration within a Human-Robot Team: Comparing Automatically Generated Explanations][Wang2016trust]|--
